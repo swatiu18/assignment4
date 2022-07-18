@@ -1,0 +1,34 @@
+#box{
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+body{
+    background-color: azure;
+}
+#box.show{
+    visibility: visible;
+}
+.clicks {
+    padding: 8px;
+    border-radius: 10px;
+    background-color:#94B49F;
+    color: white;
+    border: none;
+}
+.clicks:focus{
+    outline: none;
+}
+
+.closeBtn{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+}
+
+.closeBtn:focus{
+    outline: none;
+}
